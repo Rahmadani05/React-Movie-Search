@@ -1,16 +1,32 @@
-# React + Vite
+<img width="1894" height="944" alt="Screenshot 2026-02-23 234214" src="https://github.com/user-attachments/assets/bf3bf7fd-8aa5-4e9d-b023-24d7d65b084f" />
+<img width="1899" height="939" alt="Screenshot 2026-02-23 234224" src="https://github.com/user-attachments/assets/4596c777-ec90-45fb-86cb-c9de0534792f" />
+<img width="1898" height="935" alt="Screenshot 2026-02-23 234258" src="https://github.com/user-attachments/assets/9a3a0507-ca78-4d31-9519-e8cbf54903cc" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pada File API.js tambahkan API kalian sendiri dengan generate API di https://www.omdbapi.com/apikey.aspx
 
-Currently, two official plugins are available:
+## Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Pencarian Cepat & Akurat :Temukan film berdasarkan judul dengan antarmuka yang intuitif.
+* Infinite Scroll :Pengalaman menjelajah tanpa hambatan. Data akan dimuat secara otomatis saat pengguna menggulir ke bawah, tanpa perlu tombol paginasi konvensional.
+* SEO Optimized : Penerapan *meta tags*, *semantic HTML*, dan praktik SEO lainnya untuk memastikan aplikasi ramah mesin pencari.
+* Desain Responsif : Tampilan UI/UX yang dioptimalkan untuk berbagai ukuran layar (Mobile, Tablet, Desktop).
+* Skeleton Loading / Loading State : Memberikan umpan balik visual yang baik saat data sedang diambil dari API.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Framework/Library : React.js
+* Styling :Tailwind CSS
 
-## Expanding the ESLint configuration
+* API :omdbapi (The Open Movie Database) REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Panduan Instalasi (Getting Started)
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di mesin lokal Anda.
+
+## Prasyarat
+Pastikan Anda telah menginstal:
+* [Node.js](https://nodejs.org/) (versi 16.x atau lebih baru)
+* npm atau yarn
+
+## Install Dependensi / Run Server
+* npm install atau yarn install
+* npm run dev atau yarn dev
